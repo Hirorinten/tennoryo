@@ -1,0 +1,25 @@
+PS C:\Users\Hiror\OneDrive\tennoryo> git init
+Initialized empty Git repository in C:/Users/Hiror/OneDrive/tennoryo/.git/
+PS C:\Users\Hiror\OneDrive\tennoryo> git remote add origin https://github.com/Hirorinten/tennoryo.git   
+PS C:\Users\Hiror\OneDrive\tennoryo> streamlit --version
+Streamlit, version 1.28.1
+PS C:\Users\Hiror\OneDrive\tennoryo> pip freeze
+
+streamlit==1.28.1
+
+PS C:\Users\Hiror\OneDrive\tennoryo> git add .
+PS C:\Users\Hiror\OneDrive\tennoryo> git commit -m'1st commit'
+[master (root-commit) 7efcbbe] 1st commit
+ 2 files changed, 4 insertions(+)
+ create mode 100644 main.py
+ create mode 100644 requirements.txt
+PS C:\Users\Hiror\OneDrive\tennoryo> git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 345 bytes | 345.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Hirorinten/tennoryo.git
+ * [new branch]      master -> master
+PS C:\Users\Hiror\OneDrive\tennoryo> 
